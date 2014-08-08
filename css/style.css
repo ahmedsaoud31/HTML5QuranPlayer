@@ -1,0 +1,36 @@
+﻿/**
+ * @author		Ahmed Aboelsaoud Ahmed <ahmedsaoud31@gmail.com>
+ * @copyright	© 2014
+ * @license		GPL
+ * @license		http://opensource.org/licenses/gpl-license.php
+ * @link		https://github.com/ahmedsaoud31/HTML5QuranPlayer
+ * @version		0.0.1
+ **/
+#HTML5QuranPlayer{
+	padding: 0;
+	margin: 0;
+	font-family: Tahoma;
+	width:300px;
+	text-align: center;
+	margin: auto;
+	border: 5px solid #CCC;
+	border-radius: 10px;
+}
+#HTML5QuranPlayer div,#HTML5QuranPlayer span,#HTML5QuranPlayer select, #HTML5QuranPlayer audio{
+	font-family: Tahoma;
+	width:100%;
+	text-align: center;
+}
+#HTML5QuranPlayer select{
+	border: 0px solid #CCC;
+	border-radius: 5px;
+}
+.title{
+	background-color: #CCC;
+}
+#loopSign span{
+	display: inline-block;
+	width: 32px;
+	height: 32px;
+	background-image: url(images/icon1.png);
+}
