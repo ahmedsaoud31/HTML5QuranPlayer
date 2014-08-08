@@ -8,7 +8,6 @@
  * @version		0.0.1
  **/
 	$sitePath = "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
-	include_once('classes/getBrowser.php');
 	include_once('config.php');
 	$rwaya = array();
 	$data = array();
@@ -368,6 +367,10 @@
 		//---------------------------------------------
 		
 		$('#fullImages').click(function(){
+			$('#rwayaName').html('');
+			$('#mokrName').html('');
+			$('#imageName').html('');
+			$('#audioWrite2').attr('src','');
 			if($(this).is(':checked')){
 				data = json.some;
 			}else{
