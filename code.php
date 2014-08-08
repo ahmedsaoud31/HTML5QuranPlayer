@@ -7,6 +7,11 @@
  * @link		https://github.com/ahmedsaoud31/HTML5QuranPlayer
  * @version		0.0.1
  **/
+	/*
+	ini_set('display_errors',1);
+	ini_set('display_startup_errors',1);
+	error_reporting(-1);
+	*/
 	$sitePath = "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
 	include_once('config.php');
 	$rwaya = array();
@@ -32,11 +37,11 @@
 								$soar[] = $value3;
 							}
 						}
-						$moqre[iconv("","utf-8", $value2)] = $soar;
+						$moqre[$value2] = $soar;
 						$soar = array();
 					}
 				}
-				$rwaya[iconv("","utf-8", $value)] =  $moqre;
+				$rwaya[$value] =  $moqre;
 				$moqre = array();
 			}
 		}
