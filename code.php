@@ -356,11 +356,11 @@
 		$('#loopSign').click(function(){
 			if($('#loopSign').data('sign') == '0'){
 				$('#loopSign').data('sign','1');
-				$('#loopSign span').attr('title','تكرار الصورة');
+				$('#loopSign span').attr('title','تكرار السورة');
 				$('#loopSign span').css({backgroundImage:"url(css/images/icon2.png)"});
 			}else if($('#loopSign').data('sign') == '1'){
 				$('#loopSign').data('sign','2');
-				$('#loopSign span').attr('title','تكرار كل الصور');
+				$('#loopSign span').attr('title','تكرار كل السور');
 				$('#loopSign span').css({backgroundImage:"url(css/images/icon3.png)"});
 			}else if($('#loopSign').data('sign') == '2'){
 				$('#loopSign').data('sign','0');
