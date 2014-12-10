@@ -37,7 +37,7 @@
 	</div>
 	
 	<div>
-		<div class="title">الصورة</div>
+		<div class="title">السور</div>
 		<select name="imageName" id="imageName">
 			<!-- ............................. -->
 		</select>
